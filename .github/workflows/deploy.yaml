@@ -18,7 +18,7 @@ jobs:
               with:
                 node-version: 22
             - run: npm install
-            - uses: configure aws credential
+            - uses: aws-actions/configure-aws-credentials@v4
               with:
                 role-to-assume: https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/begin
                 aws-region: us-east-1
