@@ -7,7 +7,7 @@ module.exports.hello = async (event) => {
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            message: "Hello World from GitHub Actions!!!!",
+            message: "Hello World from GitHub Actions!!!!!",
             requestId: event.requestContext?.requestId || null,
             timestamp: new Date().toISOString()
         })
