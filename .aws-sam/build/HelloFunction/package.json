@@ -8,6 +8,6 @@
     "remove": "serverless remove"
   },
   "devDependencies": {
-    "serverless": "^3.40.0"
+    "serverless": "^4.18.2"
   }
 }
