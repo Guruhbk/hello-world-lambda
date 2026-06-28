@@ -20,7 +20,7 @@ jobs:
             - run: npm install
             - uses: aws-actions/configure-aws-credentials@v4
               with:
-                role-to-assume: https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/begin
+                role-to-assume: arn:aws:iam::756822824921:role/GitHubDeployRole
                 aws-region: us-east-1
             - name: deploy
               run: npm run deploy
